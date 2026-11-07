@@ -1,0 +1,38 @@
+body, html{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/*左侧目录栏*/
+.main{
+    
+    position:fixed;    
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background:linear-gradient(to left ,aliceblue, rgb(110, 175, 244));/*渐变*/
+    padding-top: 20px;
+    overflow-y: auto;
+    border-right: 2px solid white ;
+    /*目录内容全部居中*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h2{
+    text-align: center;  
+}
+
+.preamble{
+    margin-left:30%;
+    padding: 20px;
+    height:100%;
+    background-color:aliceblue;
+    border-bottom: 2px solid white;
+
+}
