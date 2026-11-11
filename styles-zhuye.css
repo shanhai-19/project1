@@ -1,0 +1,12 @@
+.img1{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 0 4px rgb(192, 213, 228, 1);
+}
+
+body, html{
+    background:linear-gradient(to left ,aliceblue, rgb(110, 175, 244));/*渐变*/
+
+}
+
+
