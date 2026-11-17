@@ -1,0 +1,23 @@
+/* 默认是电脑端样式 */
+.container {
+  display: flex;
+}
+
+.left-sidebar {
+  width: 250px;
+}
+
+/* 手机屏幕：宽度小于 768px 时生效 */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 左右变上下 */
+  }
+
+  .left-sidebar {
+    width: 100%; /* 侧边栏占满宽度 */
+  }
+
+  .right-content {
+    padding: 20px;
+  }
+}
