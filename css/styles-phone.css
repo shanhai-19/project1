@@ -1,0 +1,15 @@
+
+/* 手机屏幕：宽度小于 768px 时生效 */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column; /* 左右变上下 */
+  }
+
+  .preamble {
+    width: 100%; /* 侧边栏占满宽度 */
+  }
+
+  .right-content {
+    padding: 20px;
+  }
+}
